@@ -1,8 +1,14 @@
 { "name": "follow"
-, "version": "0.11.4"
+, "version": "0.11.4-bigcouch"
 , "author": { "name": "Jason Smith"
             , "email": "jhs@iriscouch.com" }
-, "contributors": [ "Jarrett Cruger <jcrugzz@gmail.com>" ]
+, "contributors": [
+    "Jarrett Cruger <jcrugzz@gmail.com>",
+    {
+        "name": "Klaasjan te Voortwis",
+        "email": "klaasjan@voortwis.nl"
+    }
+]
 , "description": "Extremely robust, fault-tolerant CouchDB changes follower"
 , "license": "Apache 2.0"
 , "keywords": ["couchdb", "changes", "sleep", "sleepy"]
